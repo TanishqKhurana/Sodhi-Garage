@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Customise Mclaren Senna</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <link rel="stylesheet" href="customisesenna.css">
+
+
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="Screenshot_2024-04-20_232618-removebg-preview.png" class="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="customise.html" class="navbar-link">Customise</a>
+          </li>
+
+          <li>
+            <a href="finance.html" class="navbar-link">Finance</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resell</a>
+          </li>
+
+        </ul>
+      </nav>
+      
+
+      
+      <a href="http://localhost/GaddiLelo/register.html" class="btn btn-primary" target=”_blank”>
+        <span class="span">Register</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+    </div>
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h1 class="headd">Mclaren Senna</h1>
+  <br>
+  <br>
+  <Br>
+    <Br>
+  <img id="carImage" src="images/senna_black.png">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <Br>
+  <br>
+  <br>
+  
+  <div class="containergaddi">
+    <h1 class="text-center">Colors</h1>
+    <h3>(only select one)<br><br></h3>
+    <div class="grid">
+        <div class="feature-box0">
+            <div class="feature-value"><button id="redButton" >Black (Stock)</button></div>
+            <div class="feature-value"><p>₹0</p></div>
+        </div>
+
+        <div class="feature-box2">
+            <div class="feature-value"><button id="blackButton" onclick="toggleCartItem('blackButton', 30000)"> Senna Blue</button></div>
+            <div class="feature-value"><p>₹30,000</p></div>
+        </div>
+
+        <div class="feature-box4">
+
+            <div class="feature-value"><button id="purpleButton" onclick="toggleCartItem('purpleButton', 30000)">Dark Blue</button></div>
+            <div class="feature-value"><p>₹30,000</p></div>
+        </div>
+
+
+        <div class="feature-box7">
+
+            <div class="feature-value"><button id="blueButton" onclick="toggleCartItem('blueButton', 30000)">Royal Red</button></div>
+            <div class="feature-value"><p>₹30,000</p></div>
+        </div>
+        <div class="feature-box8">
+
+            <div class="feature-value"><button id="greenButton" onclick="toggleCartItem('greenButton', 30000)">Flake Green</button></div>
+            <div class="feature-value"><p>₹30,000</p></div>
+        </div>
+        <div class="feature-box9">
+
+            <div class="feature-value2"><button id="pinkButton" onclick="toggleCartItem('pinkButton', 30000)">Frost White</button></div>
+            <div class="feature-value1"><p>₹30,000</p></div>
+        </div>
+        <div class="feature-box10">
+
+            <div class="feature-value"><button id="brownButton" onclick="toggleCartItem('brownButton', 45000)">Camo Wrap</button></div>
+            <div class="feature-value"><p>₹45,000</p></div>
+        </div>
+        <div class="feature-box11">
+
+            <div class="feature-value"><button id="grayButton" onclick="toggleCartItem('grayButton', 60000)">Carbon Fiber</button></div>
+            <div class="feature-value"><p>₹60,000</p></div>
+        </div>
+        <div class="feature-box11">
+
+            <div class="feature-value"><button onclick="toggleCartItem('matteButton', 25000)" id="matteButton">Matte Finish<br>(Additional)</button></div>
+            <div class="feature-value"><p>+₹25,000</p></div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="containergaddi1">
+    <h1 class="text-center">Tyre Compounds</h1>
+    <h3>(only select one)<br><br></h3>
+    <div class="grid">
+        <div class="feature-box0">
+            <div class="feature-value"><button id="redButton">Stock Tyres</button></div>
+            <div class="feature-value1"><p>₹0</p></div>
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value"><button id="tyreButton" onclick="toggleCartItem('tyreButton', 78000)"><img src="customisation cars\tyres\sport.png"</button></div>
+            <div class="feature-value1"><p>Race Tyres</p></div>
+            <div class="feature-value1"><p>₹78,000</p></div>
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value"><button id="tyre1Button" onclick="toggleCartItem('tyre1Button', 66000)"><img src="customisation cars\tyres\rally.png"</button></div>
+            <div class="feature-value1"><p>Rally Tyres</p></div>
+            <div class="feature-value1"><p>₹66,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value1"><button id="tyre2Button" onclick="toggleCartItem('tyre2Button', 90000)"><img src="customisation cars\tyres\drag.png"></button></div>
+            <div class="feature-value1"><p>Drag Tyres</p></div>
+            <div class="feature-value1"><p>₹90,000</p></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="containergaddi2">
+    <h1 class="text-center">Rims</h1>
+    <h3>(only select one)<br><Br></h3>
+    <div class="grid">
+        <div class="feature-box0">
+            <div class="feature-value"><button id="redButton">Stock Rims</button></div>
+            <div class="feature-value1"><p>₹0</p></div>
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value"><button id="rimButton" onclick="toggleCartItem('rimButton', 21400)"><img src="customisation cars\rims\adv1.png"</button></div>
+            <div class="feature-value1"><p>ADV1 Red</p></div>
+            <div class="feature-value1"><p>₹21,400</p></div>
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value1"><button id="rim1Button" onclick="toggleCartItem('rim1Button', 55000)"><img src="customisation cars\rims\bbs e55.png"></button></div>
+            <div class="feature-value1"><p>BBS E55</p></div>
+            <div class="feature-value1"><p>₹55,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value1"><button id="rim2Button" onclick="toggleCartItem('rim2Button', 33000)"><img src="customisation cars\rims\bbs re.png"></button></div>
+            <div class="feature-value1"><p>BBS RE</p></div>
+            <div class="feature-value1"><p>₹33,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim3Button" onclick="toggleCartItem('rim3Button', 57000)"><img src="customisation cars\rims\bbs rs turbofan.png"></button></div>
+            <div class="feature-value1"><p>BBS RS Turbofan</p></div>
+            <div class="feature-value1"><p>₹57,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim4Button" onclick="toggleCartItem('rim4Button', 39000)"><img src="customisation cars\rims\brabus monoblock.png"></button></div>
+            <div class="feature-value1"><p>Brabus Monoblock</p></div>
+            <div class="feature-value1"><p>₹39,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim5Button" onclick="toggleCartItem('rim5Button', 27000)"><img src="customisation cars\rims\enkei.png"></button></div>
+            <div class="feature-value1"><p>Enkei 1</p></div>
+            <div class="feature-value1"><p>₹27,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim6Button" onclick="toggleCartItem('rim6Button', 29000)"><img src="customisation cars\rims\konig daylite.png"></button></div>
+            <div class="feature-value1"><p>Konig Daylite</p></div>
+            <div class="feature-value1"><p>₹29,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim7Button" onclick="toggleCartItem('rim7Button', 18000)"><img src="customisation cars\rims\momo quantum.png"></button></div>
+            <div class="feature-value1"><p>Momo Quantum</p></div>
+            <div class="feature-value1"><p>₹18,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim8Button" onclick="toggleCartItem('rim8Button', 30000)"><img src="customisation cars\rims\wield racing magnum.png"></button></div>
+            <div class="feature-value1"><p>Wield Racing Magnum</p></div>
+            <div class="feature-value1"><p>₹30,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="rim9Button" onclick="toggleCartItem('rim9Button', 70000)"><img src="customisation cars\rims\yolk racing.png"></button></div>
+            <div class="feature-value1"><p>Yolk Racing</p></div>
+            <div class="feature-value1"><p>₹70,000</p></div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+<div class="containergaddi3">
+    <h1 class="text-center">Performance</h1>
+    <div class="grid">
+        <div class="feature-box1">
+            <div class="feature-value"><button id="perfButton" onclick="toggleCartItem('perfButton', 80673)"><img src="customisation cars\engine.png"></button></div>
+            <div class="feature-value1"><p>Engine Swap (4.0L V8)
+                Power-309KW<br>
+                Torque-400 Nm<br>
+                Weight-1430 kg
+            </p></div>
+            <div class="feature-value1"><p>₹80,673</p></div>
+ 
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value"><button id="transButton" onclick="toggleCartItem('transButton', 25000)"><img src="customisation cars\race transmission.png"></button></div>
+            <div class="feature-value1"><p>Transmission Upgrade</p></div>
+            <div class="feature-value1"><p>Top Speed- +40 kmph<br>Acceleration ++</p></div>
+            <div class="feature-value1"><p>₹25,000</p></div>
+        </div>
+        <div class="feature-box1">
+            <div class="feature-value1"><button id="dampButton" onclick="toggleCartItem('dampButton', 17500)"><img src="customisation cars\dampners higher.png"></button></div>
+            <div class="feature-value1"><p>Dampners High</p></div>
+            <div class="feature-value1"><p>Clearence- +15.5mm<br>Suspension ++</p></div>
+            <div class="feature-value1"><p>₹17,500</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value1"><button id="lowButton" onclick="toggleCartItem('lowButton', 23000)"><img src="customisation cars\dampners lower.png"></button></div>
+            <div class="feature-value1"><p>Dampners Low</p></div>
+            <div class="feature-value1"><p>Clearance- -0.95mm</p></div>
+            <div class="feature-value1"><p>Aerodynamics ++</p></div>
+            <div class="feature-value1"><p>₹23,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="weight1Button" onclick="toggleCartItem('weight1Button', 9000)"><img src="customisation cars\street weight red.png"></button></div>
+            <div class="feature-value1"><p>Weight Reduction Stage I</p></div>
+            <div class="feature-value1"><p>Weight Reduced-8.5 kg Speed+</p></div>
+            <div class="feature-value1"><p>₹9,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="weight2Button" onclick="toggleCartItem('weight2Button', 19000)"><img src="customisation cars\sport weight red.png"></button></div>
+            <div class="feature-value1"><p>Weight Reduction Stage II</p></div>
+            <div class="feature-value1"><p>Weight Reduced-27.4 kg Speed++</p></div>
+            <div class="feature-value1"><p>₹19,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="weight3Button" onclick="toggleCartItem('weight3Button', 29000)"><img src="customisation cars\race weight red.png"></button></div>
+            <div class="feature-value1"><p>Weight Reduction Stage III</p></div>
+            <div class="feature-value1"><p>Weight Reduced-65.3 kg Speed+++</p></div>
+            <div class="feature-value1"><p>₹29,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="diffButton" onclick="toggleCartItem('diffButton', 7700)"><img src="customisation cars\differential.png"></button></div>
+            <div class="feature-value1"><p>Differential Upgrade</p></div>
+            <div class="feature-value1"><p>Better and Faster Turning by 28%</p></div>
+
+            <div class="feature-value1"><p>₹7,700</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="turboButton" onclick="toggleCartItem('turboButton', 18000)"><img src="customisation cars\single turbo'.png"></button></div>
+            <div class="feature-value1"><p>Single Turbo System</p></div>
+            <div class="feature-value1"><p>Acceleration- +15%</p></div>
+
+            <div class="feature-value1"><p>₹18,000</p></div>
+        </div>
+        <div class="feature-box1">
+
+            <div class="feature-value"><button id="twinButton" onclick="toggleCartItem('twinButton', 35000)"><img src="customisation cars\twin turbo.png"></button></div>
+            <div class="feature-value1"><p>Twin Turbo System</p></div>
+            <div class="feature-value1"><p>Acceleration- +25%</p></div>
+            <div class="feature-value1"><p>₹35,000</p></div>
+        </div>
+
+    </div>
+</div>
+<button class="btn" onclick="clearCart()">Clear Cart</button> 
+<button class="btn1" onclick="checkout()">Checkout</button>
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo.jpeg" width="128" height="63" alt="autofix home">
+          </a>
+
+          <p class="footer-text">
+
+            Wanna learn more about us? Want to connect? Huh?! ok check socials :)                  </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="icons8-github.svg" alt="facebook">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="instagram.svg" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="twitter.svg" alt="twitter">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="p">Monday – Saturday</p>
+
+            <span class="span">12.00 – 14.45</span>
+          </li>
+
+          <li>
+            <p class="p">Sunday – Thursday</p>
+
+            <span class="span">17.30 – 00.00</span>
+          </li>
+
+          <li>
+            <p class="p">Friday – Saturday</p>
+
+            <span class="span">12.00 – 14.45</span>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Contact Info</p>
+          </li>
+
+          <li>
+            <a href="tel:+7877700098" class="footer-link">
+              <span class="material-symbols-rounded">call</span>
+
+              <span class="span">+91 98765 43210</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:info@autofix.com" class="footer-link">
+              <span class="material-symbols-rounded">mail</span>
+
+              <span class="span">sodhigarage@haddipa.com</span>
+            </a>
+          </li>
+
+          <li>
+            <address class="footer-link address">
+              <span class="material-symbols-rounded">location_on</span>
+
+              <span class="span">Goregaon West, Mumbai</span>
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">Copyright 2024, Sodhi Garage | Website designed by Tanishq Khurana.</p>
+
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <div class="cart-counter" id="cartCounter">
+    <span id="itemCount">0</span> items | Total: ₹<span id="totalPrice">0.00</span>
+</div>
+
+
+  <script src="customisesenna.js"></script>
+
+</body>
+
+</html>
