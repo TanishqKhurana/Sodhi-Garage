@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Buy Lamborghini Countach from Sodhi Garage</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <link rel="stylesheet" href="bmwm3.css">
+
+
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="Screenshot_2024-04-20_232618-removebg-preview.png" class="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="customise.html" class="navbar-link">Customise</a>
+          </li>
+
+          <li>
+            <a href="finance.html" class="navbar-link">Finance</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resell</a>
+          </li>
+
+        </ul>
+      </nav>
+      
+
+      
+      <a href="http://localhost/GaddiLelo/register.html" class="btn btn-primary" target=”_blank”>
+        <span class="span">Register</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+    </div>
+  </header>
+  <br>
+  <br>
+  <Br>
+  <br>
+  
+
+  <header class="car-header">
+    <div class="car-title-section">
+        <h1>LAMBORGHINI COUNTACH</h1>
+        <img class="reviewstar1" src="samay.png">
+        <p class="review">8 days left</p> 
+        <p class="price">₹ 2,55,00,000</p>
+    </div>
+    <div class="car-specs-section">
+        <span>REG. YEAR : 2012</span>
+        <span>KMS : 1,78,783</span>
+        <span>FUEL TYPE : PETROL</span>
+        <span>REG. STATE : KERELA</span>
+    </div>
+    <div class="action-buttons">
+        <button class="compare"><a href="finance.html" target="_blank">CALCULATE EMI</a></button>
+        <button class="reserve"><a href="purchase.html" target="_blank">PLACE BID</a> </button>
+    </div>
+</header>
+  
+
+<div class="carousel-container">
+    <div class="carousel-slide">
+        <img src="car catalogue\countach\main view.png" alt="Car Image 1">
+        <img src="car catalogue\countach\side view.png" alt="Car Image 2">
+        <img src="car catalogue\countach\rear view.png" alt="Car Image 3">
+        <img src="car catalogue\countach\engine.png" alt="Car Image 1">
+        <img src="car catalogue\countach\interior.png" alt="Car Image 3">
+        <img src="car catalogue\countach\scenery.png" alt="Car Image 3">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+</div>
+
+<script>
+    const carouselSlide = document.querySelector('.carousel-slide');
+    const carouselImages = document.querySelectorAll('.carousel-slide img');
+
+    // Buttons
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+
+    // Counter
+    let counter = 0;
+    const size = carouselImages[0].clientWidth;
+
+    // Initialize position
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+    function disableButtons() {
+        prevBtn.disabled = true;
+        nextBtn.disabled = true;
+        setTimeout(() => {
+            prevBtn.disabled = false;
+            nextBtn.disabled = false;
+        }, 1000); // Duration should match the transition duration
+    }
+
+    // Button Listeners
+    nextBtn.addEventListener('click', () => {
+        disableButtons();
+        counter = (counter + 1) % carouselImages.length;
+        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    });
+
+    prevBtn.addEventListener('click', () => {
+        disableButtons();
+        counter = (counter - 1 + carouselImages.length) % carouselImages.length;
+        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    });
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="rev">About</h1>
+
+
+<div class="review-block review-block-2">
+  <div class="review-text">
+    <p>You don't need to be Don Johnson to appreciate the utterly radical nature of the Countach. There’s nothing quite like arriving in a car that gave way to the term “Lambo doors.” And there is certainly not much like driving a car that looks and sounds like a jet fighter.</p>
+  </div>
+</div>
+<div class="containergaddi">
+    <h1 class="text-center">Overview</h1>
+    <div class="grid">
+        <div class="feature-box">
+            <div class="feature-title">Registration State</div>
+            <div class="feature-value">Kerela</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Vehicle Class</div>
+            <div class="feature-value">Coupe
+            </div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Registration Year</div>
+            <div class="feature-value">2012</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Engine</div>
+            <div class="feature-value">V12,Naturally Aspirated, 5200cc</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Transmission</div>
+            <div class="feature-value">5-Speed Manual</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Ownership</div>
+            <div class="feature-value">Third</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Power</div>
+            <div class="feature-value">455 HP, 369 lb-ft</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Weight</div>
+            <div class="feature-value">1490 kg</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Doors</div>
+            <div class="feature-value">2</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Drivetrain</div>
+            <div class="feature-value">RWD</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Seating Capacity</div>
+            <div class="feature-value">2</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Manufacturing Year</div>
+            <div class="feature-value">1988</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Fuel</div>
+            <div class="feature-value">Petrol</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">KM Travelled</div>
+            <div class="feature-value">1,78,783 km</div>
+        </div>
+        <div class="feature-box">
+            <div class="feature-title">Color</div>
+            <div class="feature-value">White</div>
+        </div>
+    </div>
+</div>
+
+
+
+<h1 class="text">Recommandations</h1>
+<div id="book-list" class="book-list"></div>
+<button class="car25btn"><a href="911.html" target="_blank">More</a></button>
+<button class="car26btn"><a href="viper.html" target="_blank">More</a></button>
+<button class="car27btn"><a href="f40.html" target="_blank">More</a></button>
+<button class="car28btn"><a href="amg.html" target="_blank">More</a></button>
+<button class="car29btn"><a href="488.html" target="_blank">More</a></button>
+<br>
+<a href="inventory.html" class="btn">
+  <span class="span">Back to Search</span>
+
+  
+</a>
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo.jpeg" width="128" height="63" alt="autofix home">
+          </a>
+
+          <p class="footer-text">
+            Wanna learn more about us? Want to connect? Huh?! ok check socials :)          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="icons8-github.svg" alt="facebook">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="instagram.svg" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="twitter.svg" alt="twitter">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="p">Monday – Saturday</p>
+
+            <span class="span">12.00 – 14.45</span>
+          </li>
+
+          <li>
+            <p class="p">Sunday – Thursday</p>
+
+            <span class="span">17.30 – 00.00</span>
+          </li>
+
+          <li>
+            <p class="p">Friday – Saturday</p>
+
+            <span class="span">12.00 – 14.45</span>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Contact Info</p>
+          </li>
+
+          <li>
+            <a href="tel:+7877700098" class="footer-link">
+              <span class="material-symbols-rounded">call</span>
+
+              <span class="span">+91 98765 43210</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:info@autofix.com" class="footer-link">
+              <span class="material-symbols-rounded">mail</span>
+
+              <span class="span">sodhigarage@haddipa.com</span>
+            </a>
+          </li>
+
+          <li>
+            <address class="footer-link address">
+              <span class="material-symbols-rounded">location_on</span>
+
+              <span class="span">Goregaon West, Mumbai</span>
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">Copyright 2024, Sodhi Garage | Website designed by Tanishq Khurana</p>
+
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+<script>
+    const books = [
+    {  
+        title:"911 GT3RS",
+        manufacturer:"Porsche",
+        class:"Coupe",
+        year:2016,
+        price:"Starting from ₹ 2,43,00,000"
+        
+        
+    },
+    {
+      title: "Viper",
+      manufacturer: "Dodge",
+      class:"Coupe",
+      year:2016,
+      price:"Starting from ₹2,12,00,000"
+    },
+    {
+        title:"F40",
+        manufacturer:"Ferrari",
+        class:"Coupe",
+        year:1987,
+        price:"Starting from ₹2,55,00,000"
+    },
+    {
+        title:"AMG GTR",
+        manufacturer:"Mercedes-AMG",
+        class:"Coupe",
+        year:2015,
+        price:"Starting from ₹2,65,00,000"
+
+    },
+    {
+        title:"488 GTB",
+        manufacturer:"Ferrari",
+        class:"Coupe",
+        year:"2015",
+        price:"Starting from ₹2,50,00,000"
+    }]
+    document.addEventListener('DOMContentLoaded', function() {
+        const bookList = document.getElementById('book-list');
+      
+        books.forEach(book => {
+          const bookItem = document.createElement('div');
+          bookItem.classList.add('book-item');
+          bookItem.innerHTML = `
+            <h3>${book.title}</h3>
+            <p><span>Manufacturer:</span> ${book.manufacturer}</p>
+            <p><span>Class:</span> ${book.class}</p>
+            <p><span>Year:</span> ${book.year}</p>
+            <p><span>Price:</span> ${book.price}</p>
+            
+          `;
+          bookList.appendChild(bookItem);
+        });
+      });
+  
+      // Add this script to trigger the animation when scrolled into view
+const reviewBlocks = document.querySelectorAll('.review-block');
+
+window.addEventListener('scroll', () => {
+  reviewBlocks.forEach((block) => {
+    const blockTop = block.offsetTop;
+    const blockHeight = block.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const windowScrollTop = window.scrollY;
+
+    if (windowScrollTop > blockTop - windowHeight && windowScrollTop < blockTop + blockHeight) {
+      block.classList.add('in-view');
+    } else {
+      block.classList.remove('in-view');
+    }
+  });
+});
+</script>
+</body>
+
+</html>
